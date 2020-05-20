@@ -26,7 +26,7 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "pohle-konferenzserver.${ext}",
+      "artifactName": "POHLE Konferenzserver.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true,
       "hardenedRuntime": false,
@@ -36,10 +36,10 @@
       }
     },
     "linux": {
-      "artifactName": "jitsi-meet-${arch}.${ext}",
+      "artifactName": "POHLE Konferenzserver-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
       "description": "POHLE Konferenzserver",
-      "executableName": "pohle-konferenzserver",
+      "executableName": "POHLE-Konferenzserver",
       "target": [
         {
           "arch": "x64",
@@ -48,7 +48,7 @@
       ]
     },
     "win": {
-      "artifactName": "pohle-konferenzserver.${ext}",
+      "artifactName": "POHLE Konferenzserver.${ext}",
       "target": [
         {
           "arch": [
