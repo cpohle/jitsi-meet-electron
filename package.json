@@ -1,6 +1,6 @@
 {
-  "name": "jitsi-meet-electron",
-  "version": "2.0.2",
+  "name": "pohle-konferenz-electron",
+  "version": "2.1.0",
   "description": "Electron application for POHLE Konferenzserver",
   "main": "./build/main.js",
   "productName": "POHLE Konferenzserver",
