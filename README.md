@@ -1,6 +1,6 @@
 # Jitsi Meet Electron
 
-Desktop application for [Jitsi Meet] built with [Electron].
+Desktop application for [POHLE Konferenzserver] built with [Electron].
 
 ![](screenshot.png)
 
@@ -133,7 +133,7 @@ please join [community forum].
 
 [Jitsi Meet]: https://github.com/jitsi/jitsi-meet
 [Electron]: https://electronjs.org/
-[latest release]: https://github.com/jitsi/jitsi-meet-electron/releases/latest
+[latest release]: https://github.com/cpohle/jitsi-meet-electron/releases/latest
 [jitsi-meet-electron-utils]: https://github.com/jitsi/jitsi-meet-electron-utils
 [jitsi-meet-electron-utils README]: https://github.com/jitsi/jitsi-meet-electron-utils/blob/master/README.md
 [community forum]: https://community.jitsi.org/
