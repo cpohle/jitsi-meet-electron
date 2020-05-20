@@ -8,12 +8,12 @@ export default {
     /**
      * The URL to the source code repository.
      */
-    sourceURL: 'https://github.com/jitsi/jitsi-meet-electron',
+    sourceURL: 'https://github.com/cpohle/jitsi-meet-electron',
 
     /**
      * Application name.
      */
-    appName: 'POHLE Conference',
+    appName: 'POHLE Konferenzserver',
 
     /**
      * The default server URL of Jitsi Meet Deployment that will be used.
