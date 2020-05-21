@@ -276,7 +276,7 @@ class Welcome extends Component<Props, State> {
             <Header>
                 <SpotlightTarget name = 'conference-url'>
                     <Form onSubmit = { this._onFormSubmit }>
-                        <Label>{ 'Geben Sie den Namne der Konferenz ein' } </Label>
+                        <Label>{ 'Geben Sie den Namen der Konferenz ein' } </Label>
                         <FieldWrapper>
                             <FieldTextStateless
                                 autoFocus = { true }

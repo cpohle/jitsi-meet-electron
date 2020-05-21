@@ -52,7 +52,7 @@ class OnboardingModal extends Component<Props, *> {
                     },
                     {
                         onClick: this._skip,
-                        text: '\u00dcberspringen'
+                        text: 'Ueberspringen'
                     }
                 ] }
                 heading = { `Willkommen zum ${config.appName}` }

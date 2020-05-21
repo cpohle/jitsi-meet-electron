@@ -67,10 +67,10 @@ class ServerTimeoutField extends Component<Props, State> {
             <form onSubmit = { this._onServerTimeoutSubmit }>
                 <FieldTextStateless
                     invalidMessage
-                        = { 'Invalid Timeout' }
+                        = { 'Ungüktiges Timeout' }
                     isInvalid = { !this.state.isValid }
                     isValidationHidden = { this.state.isValid }
-                    label = 'Server Timeout (in seconds)'
+                    label = 'Server Timeout (in sekunden)'
                     onBlur = { this._onServerTimeoutSubmit }
                     onChange = { this._onServerTimeoutChange }
                     placeholder = { config.defaultServerTimeout }
