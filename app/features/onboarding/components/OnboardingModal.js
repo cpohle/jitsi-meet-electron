@@ -48,16 +48,16 @@ class OnboardingModal extends Component<Props, *> {
                 actions = { [
                     {
                         onClick: this._next,
-                        text: 'Start Tour'
+                        text: 'Tour starten'
                     },
                     {
                         onClick: this._skip,
-                        text: 'Skip'
+                        text: 'Überspringen'
                     }
                 ] }
-                heading = { `Welcome to ${config.appName}` }
+                heading = { `Willkommen zu ${config.appName}` }
                 image = { OnboardingModalImage } >
-                <p> Let us show you around!</p>
+                <p>Sehen Sie sich die wichtigsten Funktionen an!</p>
             </Modal>
         );
     }
