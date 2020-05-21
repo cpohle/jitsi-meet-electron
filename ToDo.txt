@@ -1,8 +1,3 @@
-ok Logo.svg in Sidebar
-ok Größe des Fensters bei Onboarding - Prüfen bei Original Jitsi auch so? 
--- Logo in Onboarding
--- Texte im Onboarding
-
 -- Power Error in Quit
 -- Setup prüfen mit Installshield
 -- Hintergrund grau

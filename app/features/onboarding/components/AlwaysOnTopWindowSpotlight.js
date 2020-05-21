@@ -44,14 +44,14 @@ class AlwaysOnTopWindowSpotlight extends Component<Props, *> {
                 actions = { [
                     {
                         onClick: this._next,
-                        text: 'Next'
+                        text: 'Weiter'
                     }
                 ] }
                 dialogPlacement = 'left top'
                 target = { 'always-on-top-window' } >
-                You can toggle whether you want to enable the "always-on-top" window,
-                which is displayed when the main window loses focus.
-                This will be applied to all conferences.
+                Wenn Sie zu einer anderen Anwendung wechseln, blendet der Konferenzserver
+                ein kleines Fenster rechts oben ein, in welchem Sie die Konferenz weiter
+                verfolgen koennen. Das koennen Sie hier ausschalten.
             </Spotlight>
         );
     }

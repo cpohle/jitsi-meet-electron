@@ -52,10 +52,10 @@ class OnboardingModal extends Component<Props, *> {
                     },
                     {
                         onClick: this._skip,
-                        text: 'Überspringen'
+                        text: 'Ueberspringen'
                     }
                 ] }
-                heading = { `Willkommen zu ${config.appName}` }
+                heading = { `Willkommen zum ${config.appName}` }
                 image = { OnboardingModalImage } >
                 <p> Sehen Sie sich die wichtigsten Funktionen an!</p>
             </Modal>

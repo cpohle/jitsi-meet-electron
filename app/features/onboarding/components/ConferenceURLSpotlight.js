@@ -42,14 +42,15 @@ class ConferenceURLSpotlight extends Component<Props, *> {
                 actions = { [
                     {
                         onClick: this._next,
-                        text: 'Next'
+                        text: 'Weiter'
                     }
                 ] }
                 dialogPlacement = 'bottom center'
                 target = { 'conference-url' } >
-                Enter the name (or full URL) of the room you want to join. You
-                may make a name up, just let others know so they enter the same
-                name.
+                Geben Sie den Namen der Konferenz ein, an welcher Sie teilnehmen
+                moechten. Als Moderator (Sie muessen sich dann anmelden) koennen
+                Sie einfach einen neuen Namen eingeben und die Konferenz eroeffnen.
+                Teilen Sie den Namen der Konferenz dann den anderen Teilnehmern mit.
             </Spotlight>
         );
     }
