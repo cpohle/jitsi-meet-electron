@@ -96,19 +96,19 @@ export default class HelpButton extends Component< *, State> {
                 trigger = { <HelpIcon /> }>
                 <Group heading = 'Help'>
                     <Item onActivate = { this._onTermsClick }>
-                        Terms
+                        Preisliste
                     </Item>
                     <Item onActivate = { this._onPrivacyClick }>
-                        Privacy
+                        Datenschutz
                     </Item>
                     <Item onActivate = { this._onSendFeedbackClick }>
-                        Send Feedback
+                        Feedback
                     </Item>
                     <Item onActivate = { this._onAboutClick }>
-                        FAQ
+                        Haeufige Fragen
                     </Item>
                     <Item onActivate = { this._onSourceClick }>
-                        Source
+                        Quelltext
                     </Item>
                     <Item>
                         Version: { version }

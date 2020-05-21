@@ -1,3 +1,1 @@
--- Power Error in Quit
 -- Setup prüfen mit Installshield
--- Hintergrund grau
