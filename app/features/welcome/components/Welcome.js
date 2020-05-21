@@ -276,7 +276,7 @@ class Welcome extends Component<Props, State> {
             <Header>
                 <SpotlightTarget name = 'conference-url'>
                     <Form onSubmit = { this._onFormSubmit }>
-                        <Label>{ 'Enter a name for your conference or a Jitsi URL' } </Label>
+                        <Label>{ 'Geben Sie den Namne der Konferenz ein' } </Label>
                         <FieldWrapper>
                             <FieldTextStateless
                                 autoFocus = { true }
@@ -291,7 +291,7 @@ class Welcome extends Component<Props, State> {
                                 appearance = 'primary'
                                 onClick = { this._onJoin }
                                 type = 'button'>
-                                GO
+                                Teilnehmen
                             </Button>
                         </FieldWrapper>
                     </Form>
