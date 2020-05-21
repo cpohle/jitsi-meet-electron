@@ -29,7 +29,7 @@
       "artifactName": "POHLE Konferenzserver.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true,
-      "hardenedRuntime": false,
+      "hardenedRuntime": true,
       "extendInfo": {
         "NSCameraUsageDescription": "POHLE Konferenzserver benötigt Zugriff auf Ihre Webcam, um Videogespräche machen zu können.",
         "NSMicrophoneUsageDescription": "POHLE Konferenzserver benötigt Zugriff auf Ihr Mikrfon, um Gespräche machen zu können."
