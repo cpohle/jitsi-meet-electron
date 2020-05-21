@@ -6,6 +6,7 @@ Desktop application for [POHLE Konferenzserver] built with [Electron].
 
 ## Features
 
+- [End-to-End Encryption](https://jitsi.org/blog/e2ee/) support (BETA)
 - Works with any Jitsi Meet deployment
 - Local settings
 - Builtin auto-updates
