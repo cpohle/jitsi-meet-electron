@@ -57,7 +57,7 @@ class OnboardingModal extends Component<Props, *> {
                 ] }
                 heading = { `Willkommen zu ${config.appName}` }
                 image = { OnboardingModalImage } >
-                <p>Sehen Sie sich die wichtigsten Funktionen an!</p>
+                <p> Sehen Sie sich die wichtigsten Funktionen an!</p>
             </Modal>
         );
     }
