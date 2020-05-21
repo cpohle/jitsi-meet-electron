@@ -33,10 +33,10 @@ export default {
     /**
      * The URL of Privacy Policy Page.
      */
-    privacyPolicyURL: 'https://support.pohle.net/display/HC/Konferenzserver/Datenschutz',
+    privacyPolicyURL: 'https://support.pohle.net/display/HC/Datenschutz+Konferenzserver',
 
     /**
      * The URL of Terms and Conditions Page.
      */
-    termsAndConditionsURL: 'https://support.pohle.net/display/HC/Konferenzserver/Preisliste'
+    termsAndConditionsURL: 'https://support.pohle.net/display/HC/Preisliste+Konferenzserver'
 };
