@@ -20,12 +20,9 @@ Desktopanwendung für den [POHLE Konferenzserver] für Windows und MacOS.
 
 Für den [POHLE Konferenzserver] brauchst Du ein Konto, damit Du Konferenzen starten kannst. Um an Konferenzen teilzunehmen brauchst Du nur den Namen der Konferenz und ggf. das Kennwort für die Konferenz, aber kein Konto. 
 
-Für Windows gibt es zwei Setupprogramme: 
+Für Windows gibt es das [Windows Setup EXE] zum einfach installieren  (für die meisten Anwender empfohlen) und als [Windows Setup MSI] für Administratoren, die das Program automatisch auf die Arbeitsstationen installieren möchten .
 
-- Für Anwender, die keine Adminrechte auf ihrem PC haben und deren Virenscanner kein Problem hat, Anwendungen im AppData auszuführen gibt es das Setup hier (...), dies installiert die Anwendung nach %Appdata%\Local\Applications
-- Für die Administratoren meiner Kunden und Anwender, die Adminrechte auf ihrem PC haben gibt es das Setup als MSI File hier (...), dieses installiert die Anwendung nach %ProgramFiles%
-
-Für MacOS gibt es ein DMG File zum Download, dieses einfach mounten und die App ins Applications Verzeichnis ziehen, wie Ihr das von anderen MacApps gewohnt seid. 
+Für MacOS gibt es ein DMG File zum Download, dieses einfach mounten und die App ins Applications Verzeichnis ziehen, wie Ihr das von anderen MacApps gewohnt seid: [MacOS Setup]
 
 ## Weitere Informationen
 
@@ -45,3 +42,6 @@ möchtest, registriere Dich im [community forum].
 [LICENSE]: LICENSE
 [POHLE Konferenzserver]: https://support.pohle.net/display/HC/Konferenzserver
 [Jitsi Meet]: https://jitsi.org/jitsi-meet/
+[Windows Setup EXE]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.Setup.2.10.exe
+[Windows Setup MSI]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.2.10.msi 
+[MacOS Setup]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.Setup.2.10.dmg
