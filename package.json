@@ -1,9 +1,9 @@
 {
-  "name": "jitsi-meet-electron",
+  "name": "pohle-konferenz-electron",
   "version": "2.1.0",
-  "description": "Electron application for Jitsi Meet",
+  "description": "Electron application for POHLE Konferenzserver",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "POHLE Konferenzserver",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
@@ -16,8 +16,8 @@
     "watch": "webpack --config ./webpack.renderer.js --mode development --watch --watch-poll"
   },
   "build": {
-    "appId": "org.jitsi.jitsi-meet",
-    "productName": "Jitsi Meet",
+    "appId": "konferenz.pohle.de",
+    "productName": "POHLE Konferenzserver",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "**/*",
@@ -26,20 +26,20 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "POHLE Konferenzserver.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true,
       "hardenedRuntime": false,
       "extendInfo": {
-        "NSCameraUsageDescription": "Jitsi Meet requires access to your camera in order to make video-calls.",
-        "NSMicrophoneUsageDescription": "Jitsi Meet requires access to your microphone in order to make calls (audio/video)."
+        "NSCameraUsageDescription": "POHLE Konferenzserver benötigt Zugriff auf Ihre Webcam, um Videogespräche machen zu können.",
+        "NSMicrophoneUsageDescription": "POHLE Konferenzserver benötigt Zugriff auf Ihr Mikrfon, um Gespräche machen zu können."
       }
     },
     "linux": {
-      "artifactName": "jitsi-meet-${arch}.${ext}",
+      "artifactName": "POHLE Konferenzserver-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "Jitsi Meet Desktop App",
-      "executableName": "jitsi-meet",
+      "description": "POHLE Konferenzserver",
+      "executableName": "POHLE-Konferenzserver",
       "target": [
         {
           "arch": "x64",
@@ -48,7 +48,7 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "POHLE Konferenzserver.${ext}",
       "target": [
         {
           "arch": [
@@ -68,7 +68,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet-electron"
+    "url": "git://github.com/cpohle/jitsi-meet-electron"
   },
   "keywords": [
     "jingle",
@@ -77,7 +77,7 @@
     "electron",
     "jitsi-meet"
   ],
-  "author": "Jitsi Team <support@jitsi.org>",
+  "author": "Christian Pohle <support@pohle.net>",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "dependencies": {
