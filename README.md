@@ -1,141 +1,47 @@
-# Jitsi Meet Electron
+# POHLE Konferenzserver App für MacOS und Windows
 
-Desktop application for [POHLE Konferenzserver] built with [Electron].
+Desktopanwendung für den [POHLE Konferenzserver] für Windows und MacOS. 
 
 ![](screenshot.png)
 
-## Features
+## Funktionen
 
-- [End-to-End Encryption](https://jitsi.org/blog/e2ee/) support (BETA)
-- Works with any Jitsi Meet deployment
-- Local settings
-- Builtin auto-updates
-- Remote control
-- Always-On-Top window
+- Fork des jitsi-meet-electron Client
+- Soweit sinnvoll und möglich auf Deutsch übersetzt
+- Für meinen Konferenzserver angepaßt (Titel, Logos, Farben, ServerURL)
+- Die Anwendung kann natürlich mit jedem anderen [Jitsi Meet] Server verwendet werden
+- Lokal gespeicherte Settings
+- Automatische Updates
+- Fernsteuerung
+- Kleines Extrafenster, wenn die App nicht den Fokus hat
+- Signierte App für MacOS und Windows 
 
 ## Installation
 
-Download our [latest release] and you're off to the races! The supported platforms
-are macOS, Windows (both 32 and 64bits) and GNU/Linux (64bits only).
+Für den [POHLE Konferenzserver] brauchst Du ein Konto, damit Du Konferenzen starten kannst. Um an Konferenzen teilzunehmen brauchst Du nur den Namen der Konferenz und ggf. das Kennwort für die Konferenz, aber kein Konto. 
 
-<details><summary>NOTE for old GNU/Linux distributions</summary>
+Für Windows gibt es zwei Setupprogramme: 
 
-You might get the following error:
+- Für Anwender, die keine Adminrechte auf ihrem PC haben und deren Virenscanner kein Problem hat, Anwendungen im AppData auszuführen gibt es das Setup hier (...), dies installiert die Anwendung nach %Appdata%\Local\Applications
+- Für die Administratoren meiner Kunden und Anwender, die Adminrechte auf ihrem PC haben gibt es das Setup als MSI File hier (...), dieses installiert die Anwendung nach %ProgramFiles%
 
-```
-FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. NSS >= 3.26 is required.
-Please upgrade to the latest NSS, and if you still get this error, contact your
-distribution maintainer.
-```
+Für MacOS gibt es ein DMG File zum Download, dieses einfach mounten und die App ins Applications Verzeichnis ziehen, wie Ihr das von anderen MacApps gewohnt seid. 
 
-If you do, please install NSS (example for Debian / Ubuntu):
+## Weitere Informationen
 
-```bash
-sudo apt-get install libnss3
-```
+Weitere Informationen zum [POHLE Konferenzserver]
 
-</details>
+## Lizenz
 
-### Homebrew
-
-For *MacOS* user, you can install the application using the following command:
-
-```
-brew cask install jitsi-meet
-```
-
-### Using it with your own Jitsi Meet installation
-
-In order to use this application with your own Jitsi Meet installation it's
-necessary to enable the External API. Your server must serve a `external_api.js`
-file at the root of the installation.
-
-Here is an example using nginx:
-
-```
-location /external_api.js {
-    alias /usr/share/jitsi-meet/libs/external_api.min.js;
-}
-```
-
-The following additional HTTP headers are known not to work with the Electron App:
-
-```
-Content-Security-Policy "frame-ancestors 'none'";
-X-Frame-Options "DENY";
-```
-
-## Development
-
-If you want to hack on this project, here is how you do it.
-
-<details><summary>Show building instructions</summary>
-
-#### Installing dependencies
-
-```bash
-npm install
-```
-
-#### Starting in development mode
-
-```bash
-npm start
-```
-
-The debugger tools are available when running in dev mode and can be activated with keyboard shortcuts as defined here https://github.com/sindresorhus/electron-debug#features.
-
-#### Building the production distribution
-
-```bash
-npm run dist
-```
-
-#### Working with jitsi-meet-electron-utils
-
-[jitsi-meet-electron-utils] is a helper package which implements many features
-such as remote control and the always-on-top window. If new features are to be
-added / tested, running with a local version of these utils is very handy, here
-is how to do that.
-
-By default the jitsi-meet-electron-utils is build from its git repository
-sources. The default dependency path in package.json is:
-
-```json
-"jitsi-meet-electron-utils": "jitsi/jitsi-meet-electron-utils"
-```
-
-To work with local copy you must change the path to:
-
-```json
-"jitsi-meet-electron-utils": "file:///Users/name/jitsi-meet-electron-utils-copy",
-```
-
-To build the project you must force it to take the sources as `npm update` will
-not do it.
-
-```bash
-npm install jitsi-meet-electron-utils --force
-```
-
-NOTE: Also check the [jitsi-meet-electron-utils README] to see how to configure
-your environment.
-
-</details>
-
-## License
-
-Apache 2. See the [LICENSE] file.
+Apache 2. Siehe in der [LICENSE] Datei.
 
 ## Community
 
-Jitsi is built by a large community of developers, if you want to participate,
-please join [community forum].
+Jitsi ist von einer großen Gemenschaft von Entwicklern gebaut, wenn Du teilnehmen 
+möchtest, registriere Dich im [community forum].
 
-[Jitsi Meet]: https://github.com/jitsi/jitsi-meet
-[Electron]: https://electronjs.org/
-[latest release]: https://github.com/cpohle/jitsi-meet-electron/releases/latest
-[jitsi-meet-electron-utils]: https://github.com/jitsi/jitsi-meet-electron-utils
-[jitsi-meet-electron-utils README]: https://github.com/jitsi/jitsi-meet-electron-utils/blob/master/README.md
+[Download]: https://github.com/cpohle/jitsi-meet-electron/releases/latest
 [community forum]: https://community.jitsi.org/
 [LICENSE]: LICENSE
+[POHLE Konferenzserver]: https://support.pohle.net/display/HC/Konferenzserver
+[Jitsi Meet]: https://jitsi.org/jitsi-meet/
