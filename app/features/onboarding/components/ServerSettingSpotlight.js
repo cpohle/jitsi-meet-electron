@@ -47,9 +47,11 @@ class ServerSettingSpotlight extends Component<Props, *> {
                 ] }
                 dialogPlacement = 'left top'
                 target = { 'server-setting' } >
-                Hier geben Sie den Namen des Servers ein, den Sie verwenden
-                moechten. Unser Server konferenz.pohle.de ist bereits
-                voreingestellt.
+                {
+                    unescape('Hier geben Sie den Namen des Servers ein, den Sie verwenden '
+                           + 'm%F6chten. Unser Server konferenz.pohle.de ist bereits '
+                           + 'voreingestellt.')
+                }
             </Spotlight>
         );
     }

@@ -49,9 +49,11 @@ class AlwaysOnTopWindowSpotlight extends Component<Props, *> {
                 ] }
                 dialogPlacement = 'left top'
                 target = { 'always-on-top-window' } >
-                Wenn Sie zu einer anderen Anwendung wechseln, blendet der Konferenzserver
-                ein kleines Fenster rechts oben ein, in welchem Sie die Konferenz weiter
-                verfolgen koennen. Das koennen Sie hier ausschalten.
+                {
+                    unescape('Wenn Sie zu einer anderen Anwendung wechseln, blendet der Konferenzserver '
+                           + 'ein kleines Fenster rechts oben ein, in welchem Sie die Konferenz weiter verfolgen '
+                           + 'k%F6nnen. Das k%F6nnen Sie hier ausschalten.')
+                }
             </Spotlight>
         );
     }

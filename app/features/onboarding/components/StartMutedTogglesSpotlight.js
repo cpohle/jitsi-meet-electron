@@ -47,8 +47,10 @@ class StartMutedTogglesSpotlight extends Component<Props, *> {
                 ] }
                 dialogPlacement = 'left top'
                 target = { 'start-muted-toggles' } >
-                Sie koennen hier einstellen, dass Sie immer mit ausgeschaltetem Ton
-                und Video in Konferenzen starten, wenn Ihnen das lieber ist.
+                {
+                    unescape('Sie k%F6nnen hier einstellen, dass Sie immer mit ausgeschaltetem Ton '
+                           + 'und Video in Konferenzen starten, wenn Ihnen das lieber ist.')
+                }
             </Spotlight>
         );
     }

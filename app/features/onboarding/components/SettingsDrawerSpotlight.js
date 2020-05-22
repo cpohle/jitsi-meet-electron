@@ -45,7 +45,9 @@ class SettingsDrawerSpotlight extends Component<Props, *> {
                 dialogPlacement = 'right top'
                 target = { 'settings-drawer-button' }
                 targetOnClick = { this._next }>
-                Klicken Sie hier, um die Einstellungen zu oeffnen.
+                {
+                    unescape('Klicken Sie hier, um die Einstellungen zu %F6ffnen.')
+                }
             </Spotlight>
         );
     }

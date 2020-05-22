@@ -47,10 +47,12 @@ class ConferenceURLSpotlight extends Component<Props, *> {
                 ] }
                 dialogPlacement = 'bottom center'
                 target = { 'conference-url' } >
-                Geben Sie den Namen der Konferenz ein, an welcher Sie teilnehmen
-                moechten. Als Moderator (Sie muessen sich dann anmelden) koennen
-                Sie einfach einen neuen Namen eingeben und die Konferenz eroeffnen.
-                Teilen Sie den Namen der Konferenz dann den anderen Teilnehmern mit.
+                {
+                    unescape('Geben Sie den Namen der Konferenz ein, an welcher Sie teilnehmen '
+                           + 'm%F6chten. Als Moderator (Sie m%FCssen sich dann anmelden) k%F6nnen '
+                           + 'Sie einfach einen neuen Namen eingeben und die Konferenz er%F6ffnen. '
+                           + 'Teilen Sie den Namen der Konferenz dann den anderen Teilnehmern mit.')
+                }
             </Spotlight>
         );
     }

@@ -52,12 +52,14 @@ class OnboardingModal extends Component<Props, *> {
                     },
                     {
                         onClick: this._skip,
-                        text: 'Ueberspringen'
+                        text: unescape('%DCberspringen')
                     }
                 ] }
                 heading = { `Willkommen zum ${config.appName}` }
                 image = { OnboardingModalImage } >
-                <p> Sehen Sie sich die wichtigsten Funktionen an!</p>
+                {
+                    unescape('Sehen Sie sich die wichtigsten Funktionen in einer kleinen Tour durch die App an!')
+                }
             </Modal>
         );
     }

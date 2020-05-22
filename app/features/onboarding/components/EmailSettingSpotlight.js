@@ -47,11 +47,13 @@ class EmailSettingSpotlight extends Component<Props, *> {
                 ] }
                 dialogPlacement = 'left top'
                 target = { 'email-setting' } >
-                Die E-Mail Adresse, die Sie hier eingeben, wird benutzt, um einen
-                Avatar von gravatar.com zu holen und anzuzeigen, wenn Sie kein
-                Videobild veroeffentlichen. Sie muessen hier keine E-Mail Adresse
-                eingeben, wenn Sie das nicht moechten, dann werden Ihre Initialen
-                angezeigt.
+                {
+                    unescape('Die E-Mail Adresse, die Sie hier eingeben, wird benutzt, um einen '
+                           + 'Avatar von gravatar.com zu holen und anzuzeigen, wenn Sie kein '
+                           + 'Videobild ver%F6ffentlichen. Sie m%FCssen hier keine E-Mail Adresse '
+                           + 'eingeben, wenn Sie das nicht m%F6chten, dann werden einfach Ihre '
+                           + 'Initialen angezeigt.')
+                }
             </Spotlight>
         );
     }

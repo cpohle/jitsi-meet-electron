@@ -105,7 +105,9 @@ export default class HelpButton extends Component< *, State> {
                         Feedback
                     </Item>
                     <Item onActivate = { this._onAboutClick }>
-                        Haeufige Fragen
+                        {
+                            unescape('H%E4ufige Fragen')
+                        }
                     </Item>
                     <Item onActivate = { this._onSourceClick }>
                         Quelltext
