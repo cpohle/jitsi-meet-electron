@@ -1,6 +1,6 @@
 {
   "name": "pohle-konferenz-electron",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Electron application for POHLE Konferenzserver",
   "main": "./build/main.js",
   "productName": "POHLE Konferenzserver",
