@@ -42,6 +42,6 @@ möchtest, registriere Dich im [community forum].
 [LICENSE]: LICENSE
 [POHLE Konferenzserver]: https://support.pohle.net/display/HC/Konferenzserver
 [Jitsi Meet]: https://jitsi.org/jitsi-meet/
-[Windows Setup EXE]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.Setup.2.10.exe
-[Windows Setup MSI]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.2.10.msi 
-[MacOS Setup]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.Setup.2.10.dmg
+[Windows Setup EXE]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.Setup.2.1.0.exe
+[Windows Setup MSI]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.0/POHLE.Konferenzserver.2.1.0.msi 
+[MacOS Setup]: https://github.com/cpohle/jitsi-meet-electron/releases/download/v2.1.1/POHLE.Konferenzserver.Setup.2.1.1.dmg
