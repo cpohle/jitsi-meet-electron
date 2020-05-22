@@ -7,14 +7,15 @@ Desktopanwendung für den [POHLE Konferenzserver] für Windows und MacOS.
 ## Funktionen
 
 - Fork des jitsi-meet-electron Client
-- Soweit sinnvoll und möglich auf Deutsch übersetzt
+- Soweit möglich auf Deutsch übersetzt
 - Für meinen Konferenzserver angepaßt (Titel, Logos, Farben, ServerURL)
 - Die Anwendung kann natürlich mit jedem anderen [Jitsi Meet] Server verwendet werden
 - Lokal gespeicherte Settings
 - Automatische Updates
 - Fernsteuerung
 - Kleines Extrafenster, wenn die App nicht den Fokus hat
-- Signierte App für MacOS und Windows 
+- Signierte App für MacOS und Windows
+- Initiales Fenster vergrößert
 
 ## Installation
 
